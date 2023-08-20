@@ -1,0 +1,51 @@
+#carrito{
+    p{    
+        font-size: 1em; 
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        margin-top: 8vh;}
+
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2,5vw;
+        height: 5vh;
+    }
+
+    section{
+        font-size: 1em; 
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border: solid black 1px;
+        margin-top: 2vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        padding-bottom: 35vh;
+        padding-top: 20vh;
+        box-shadow: 2px 4px 10px 0 #000;
+    }
+}
+
+#principal{
+    background: linear-gradient(rgba(5, 7 , 12, 1)rgba(5, 7 , 12, 1));
+    background-image: url(../assets/images/fondo-ropa.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#is{
+    background-color: #d5d5d5;
+}

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Styles somos una nueva tienda multimarca de estilo urbano, tenemos una gran variedad de ropa para llevar en el dia a dia.">
+    <meta name="keywords" content="Ropa,Zapatillas,Marcas">
+    <meta name="author" content="Agustin Escalante">
+    <meta name="copyright" content="Styles">
+    <link rel="icon" type="image/png" href="./assets/images/icono.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">    <title>Styles Ropa</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-dark navbar-expand-lg " style="background-color: #000;">
+            <!-- Logo -->
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./assets/images/logoheader.png" alt="Logo Header Blanco" width="100px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/carrito.html">Carrito</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/sn.html">Sobre Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/is.html">Iniciar Sesion</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscador" aria-label="Search">
+                  <button class="btn btn-light btn-light-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+                    <!-- Slides Img -->
+        <div id="carouselExampleFade" class="carousel slide carousel-fade mt-5">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-intervale="3000">
+                <img src="./assets/images/publicidad-inicio-1.jpg" alt="Imagen Jordan Inicio" class="d-block w-100">
+              </div>
+              <div class="carousel-item" data-bs-intervale="3000">
+                <img src="./assets/images/publicidad-inicio-2.jpg" alt="Imagen Jordan2 Inicio" class="d-block w-100">
+              </div>
+              <div class="carousel-item" data-bs-intervale="3000">
+                <img src="./assets/images/publicidad-inicio-3.jpg" alt="Imagen Puma Inicio" class="d-block w-100">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+                              <!-- Cards Publicidad 1 -->
+
+          
+          <div class="container-fluid text-center mt-5">
+            <h3>Tendencias</h3>
+            <div class="row mt-4">
+                <div class="col-sm-12 col-md-4 col-lg-4 py-3">
+                    <div class="card shadow">
+                        <img src="./assets/images/P1.png" alt="Publicidad1 nike" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 py-3">
+                    <div class="card shadow">
+                        <img src="./assets/images/P2.png " alt="publicidad2 nike verde" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 py-3">
+                    <div class="card shadow">
+                        <img src="./assets/images/P3.png" alt="publicidad jordan main" class="card-img-top">
+                    </div>
+                </div>
+            </div>
+          </div>
+
+                                        <!-- Cards Lanzamiento -->
+
+
+          <div class="container-fluid text-center mt-5">
+            <h3>Lanzamientos</h3>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="row mt-4 ">
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 15rem;" id="cards">
+                        <img src="./assets/images/zapatillas1/zapatilla1.png" alt="zapatilla shadow" class="card-img-top" id="img1">
+                        <div class="card-body">
+                          <h5 class="card-title overflow-hidden">ZAPATILLAS NIKE AIR FORCE 1 SHADOW</h5>
+                          <p class="card-text">$43.699 Tres cuotas de $14.566,00 ENVIO GRATIS</p>
+                          <a href="#" class="btn btn-primary d-flex justify-content-center align-items-end">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 15rem;" id="cards">
+                        <img src="./assets/images/zapatillas1/zapatilla2.png" alt="zapatilla dawn low" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title overflow-hidden">ZAPATILLAS NIKE AIR MAX DAWN LOW</h5>
+                          <p class="card-text">$47.799 Tres cuotas de $15.933,00 ENVIO GRATIS</p>
+                          <a href="#" class="btn btn-primary d-flex justify-content-center align-items-end">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3"> 
+                    <div class="card" style="width: 15rem;" id="cards">
+                        <img src="./assets/images/zapatillas1/zapatilla3.png" alt="zapatilla reto prm" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title overflow-hidden">ZAPATILLAS NIKE DUNK LOW RETRO</h5>
+                          <p class="card-text">$51.999 Tres cuotas de $17.333,00 ENVIO GRATIS</p>
+                          <a href="#" class="btn btn-primary d-flex justify-content-center align-items-end">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 15rem;" id="cards">
+                        <img src="./assets/images/zapatillas1/zapatilla4.png" alt="zapatilla air max 97 black low" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title overflow-hidden">ZAPATILLAS NIKE AIR MAX 97 BLACK LOW</h5>
+                          <p class="card-text">$68.999 Tres cuotas de $23.000,00 ENVIO GRATIS</p>
+                          <a href="#" class="btn btn-primary d-flex justify-content-center align-items-end">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+          </div>
+
+        <!-- Cards Publicidad 2 -->
+
+
+          <div class="container-fluid mt-5">
+            <div class="row mt-4 d-flex justify-content-center">
+                <div class="col-sm-12 col-md-4 col-lg-4 py-3">
+                    <div class="card shadow">
+                        <img src="./assets/images/p-4.jpg" alt="Publicidad adidas fuorum" class="card-img-top">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 py-3">
+                    <div class="card shadow">
+                        <img src="./assets/images/p-5.jpg " alt="Publicidad nike air max" class="card-img-top">
+                    </div>
+                </div>
+            </div>
+          </div>
+
+        <!-- Cards Destacados -->
+          <div class="container-fluid text-center mt-5">
+            <h3>Destacados</h3>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="row mt-4 ">
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 15rem;" id="cards">
+                        <img src="./assets/images/destacados/destacados-1.jpg" alt="Buzo Champion destacados" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title overflow-hidden">BUZO CHAMPION NEGRO</h5>
+                          <p class="card-text">$ 9.999 Tres cuotas de $ 3.333,00 ENVIO GRATIS</p>
+                          <a href="#" class="btn btn-primary d-flex justify-content-center align-items-end">Comprar</a>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 15rem;" id="cards">
+                        <img src="./assets/images/destacados/destacados-2.jpg" alt="retro 3 dark destacados" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title overflow-hidden">BOTITAS JORDAN AIR 3 RETRO DARK</h5>
+                          <p class="card-text">$85.199 Tres cuotas de $28.400,00 ENVIO GRATIS</p>
+                          <a href="#" class="btn btn-primary d-flex justify-content-center align-items-end">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 15rem;" id="cards">
+                        <img src="./assets/images/destacados/destacados-3.jpg" alt="pantalon adidas destacados" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title overflow-hidden">PANTALON ADIDAS ORIGINALS NMD</h5>
+                          <p class="card-text">$23.999 Tres cuotas de $8.000,00 ENVIO GRATIS</p>
+                          <a href="#" class="btn btn-primary d-flex justify-content-center align-items-end">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-3 col-lg-3">
+                    <div class="card" style="width: 15rem;" id="cards">
+                        <img src="./assets/images/destacados/destacados-4.jpg" alt="campera adidas adicolor destacados" class="card-img-top">
+                        <div class="card-body">
+                          <h5 class="card-title overflow-hidden">CAMPERA ADIDAS ADICOLOR</h5>
+                          <p class="card-text">$37.999 Tres cuotas de $12.666,00 ENVIO GRATIS</p>
+                          <a href="#" class="btn btn-primary d-flex justify-content-center align-items-end">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+          </div>
+          <!-- marcas -->
+          <div class="container-fluid text-center mt-5">
+            <h3>Marcas</h3>
+            <div class="row mt-4 d-flex justify-content-center">
+                <div class="col-sm-12 col-md-2 col-lg-2 py-3">
+                    <div class="card shadow" id="cards">
+                        <a href="./pages/puma.html"><img src="./assets/images/marcas/marcas1.png" alt="logo puma" class="card-img-top"></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2 py-3">
+                    <div class="card shadow" id="cards">
+                        <a href="./pages/jordan.html"><img src="./assets/images/marcas/marcas2.png" alt="logo jordan" class="card-img-top"></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-2 col-lg-2 py-3">
+                  <div class="card shadow" id="cards">
+                      <a href="./pages/adidas.html"><img src="./assets/images/marcas/marcas3.png" alt="logo adidas" class="card-img-top"></a>
+                  </div>
+              </div>
+              <div class="col-sm-12 col-md-2 col-lg-2 py-3">
+                <div class="card shadow" id="cards">
+                    <a href="./pages/nike.html"><img src="./assets/images/marcas/nike-logo.png" alt="logo nike" width="100px" class="card-img-top"></a>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-2 col-lg-2 py-3">
+              <div class="card shadow" id="cards">
+                  <a href="./pages/newbalance.html"><img src="./assets/images/marcas/marcas5.png" alt="logo newbalance" width="100" class="card-img-top"></a>
+              </div>
+          </div>
+            </div>
+          </div>
+          
+          <!-- Publicidad 3 -->
+          <div class="container-fluid">
+            <div class="d-flex justify-content-center mt-4 mb" >
+                <img src="./assets/images/publicidad-inicio-4.png" alt="publicidad puma pre-footer">
+            </div>
+          </div>
+    </main>
+
+    <footer class="text-center text-white  mt-5" style="background-color: #000;">
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- footer top -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Mantenete conectado con nosotros:</span>
+      </div>
+    </section>
+    <!-- info pagina -->
+    <section>
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Styles
+            </h6>
+            <p>
+                Trabajamos para hacer llegar a nuestros clientes las últimas tendencias en moda y calzado a precios asequibles.
+                Tenemos un deber hacia nosotros mismos y un compromiso para con nuestros consumidores.
+            </p>
+          </div>  
+          <!-- contactos -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold mb-4">Contactos</h6>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              escalanteagus2908@gmail.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 54 9 351 628 8205</p>           
+          </div>
+        </div>
+      </div>
+    </section>  
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
